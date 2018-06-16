@@ -1,0 +1,19 @@
+{
+  "name": "dailycodingproblems",
+  "version": "1.0.0",
+  "description": "My solutions to the dailycodingproblems.com problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleypaul/dailyCodingProblems.git"
+  },
+  "author": "Paul Bradley (bradleypaul)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bradleypaul/dailyCodingProblems/issues"
+  },
+  "homepage": "https://github.com/bradleypaul/dailyCodingProblems#readme"
+}
