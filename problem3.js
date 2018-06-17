@@ -11,6 +11,8 @@ class Node:
         self.right = right
 */
 
+
+
 class Node {
     constructor(val, left = null, right = null) {
         this.val = val;
@@ -19,12 +21,12 @@ class Node {
     }
 }
 
-const serialize = tree => {
-    return JSON.stringify(tree);
+const serialize = root => {
+    return JSON.stringify(root);
 }
 
-const deserialize = json => {
-    return JSON.parse(json);
+const deserialize = s => {
+    return JSON.parse(s);
 }
 
 node = new Node('root', new Node('left', new Node('left.left')), new Node('right'));
