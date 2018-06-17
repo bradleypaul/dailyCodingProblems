@@ -11,8 +11,6 @@ class Node:
         self.right = right
 */
 
-
-
 class Node {
     constructor(val, left = null, right = null) {
         this.val = val;
