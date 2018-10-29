@@ -7,8 +7,6 @@ The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.*/
 
-const jasmine = require('jasmine');
-
 const challenge = nums => {
     let result = 1;
     nums.sort().forEach(item => {
@@ -17,7 +15,7 @@ const challenge = nums => {
         }
     });
     return result;
-}
+};
 
 console.log(challenge([3, 4, -1, 1]));
 console.log(challenge([1, 2, 0]));
